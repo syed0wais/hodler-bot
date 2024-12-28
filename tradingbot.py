@@ -18,8 +18,8 @@ from finbert_utils import estimate_sentiment
 
 
 # env ->
-API_KEY = "PKK0LN8DH7N7JTG4IPYZ" 
-API_SECRET = "XVCwd6LxgjwgFnLKGxnqZEVcwyjGeWtTTXJU3ZQv" 
+API_KEY = "" 
+API_SECRET = "" 
 
 BASE_URL = "https://paper-api.alpaca.markets"
 
