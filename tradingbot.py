@@ -1,5 +1,5 @@
-# import os
-# from dotenv import load_dotenv
+import os
+from dotenv import load_dotenv
 from lumibot.brokers import Alpaca
 from lumibot.backtesting import YahooDataBacktesting
 from lumibot.strategies.strategy import Strategy
@@ -9,17 +9,17 @@ from alpaca_trade_api import REST
 from timedelta import Timedelta 
 from finbert_utils import estimate_sentiment
 
-# # Load environment variables from .env file
-# load_dotenv()
+# Load environment variables from .env file
+load_dotenv()
 
-# # Access the variables
-# api_key = os.getenv("API_KEY")
-# api_secret = os.getenv("API_SECRET")
+# Access the variables
+API_KEY = os.getenv("API_KEY")
+API_SECRET = os.getenv("API_SECRET")
 
 
 # env ->
-API_KEY = "PKK0LN8DH7N7JTG4IPYZ" 
-API_SECRET = "XVCwd6LxgjwgFnLKGxnqZEVcwyjGeWtTTXJU3ZQv" 
+# API_KEY = "" 
+# API_SECRET = "" 
 
 BASE_URL = "https://paper-api.alpaca.markets"
 
