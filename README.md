@@ -94,13 +94,3 @@ The bot\'s strategy combines **machine learning-based sentiment analysis** with 
 *Performance on historical data (2020-2024).*
 
 ---
-
-## ⚠️ Disclaimer
-
-This bot is for educational purposes only. Always trade responsibly and do your own research. The authors are not responsible for any financial losses incurred.
-
----
-
-## 📧 Contact
-
-Have questions or suggestions? Feel free to reach out!
